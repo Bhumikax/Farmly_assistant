@@ -1,72 +1,101 @@
-# 🌾 Farmly – Your Smart Agricultural Assistant
+# 🌾 Farmly – Your Smart Agriculture Assistant
 
-Welcome to **Farmly**, a powerful yet user-friendly platform built to empower farmers with smart tools and real-time insights for better farming decisions. From crop selection to government schemes and soil health – Farmly is your one-stop digital farming buddy. 💚
+Welcome to **Farmly**, a tech-driven solution designed to empower farmers with timely insights, smart recommendations, and practical tools — all in one place. Built with a user-friendly frontend and a Python-powered backend, Farmly helps make informed agricultural decisions using data, AI, and IoT integration.
 
 ---
 
-## 🚀 Features
+## 🚜 Key Features
 
-✨ **Crop Recommendation System**  
-Suggests the most suitable crops based on location, season, and soil conditions.
+- 🌱 **Crop Recommendation**  
+  Suggests the most suitable crops based on environmental and soil data.
 
-🌱 **Fertilizer Suggestions**  
-Recommends the right type and quantity of fertilizers based on crop and soil data.
+- 🧪 **Fertilizer Advisory**  
+  Recommends optimal fertilizers for healthier crop growth and soil maintenance.
 
-🌤️ **Live Weather Forecast**  
-Displays real-time weather updates for timely agricultural activities.
+- 🌤️ **Weather Forecasting**  
+  Real-time weather updates for better planning of farm activities.
 
-🧠 **Disease Detection & Info**  
-Identifies common plant diseases and provides precautionary measures and treatments.
+- 🦠 **Plant Disease Detection**  
+  Identifies and provides remedies for common plant diseases using ML models.
 
-💬 **AI Chatbot for Support**  
-24/7 chatbot assistant to answer common farming queries and provide recommendations.
+- 💬 **AI Chatbot Support**  
+  Instant help via a chatbot trained to answer basic farming queries.
 
-📜 **Government Schemes & Subsidies**  
-Stay updated with relevant agricultural schemes, subsidies, and registration processes.
+- 📜 **Government Schemes Portal**  
+  Aggregates useful schemes and subsidy information for farmers.
 
-💰 **Seed Pricing & Availability**  
-Know the current prices and availability of seeds in nearby markets.
+- 💸 **Seed Pricing & Resources**  
+  Up-to-date seed price listings and resource availability.
 
-🔋 **Solar Panel Guidance**  
-Informs farmers about affordable solar energy solutions for sustainable farming.
+- ☀️ **Solar Panel Info Center**  
+  Guidance on renewable energy adoption through affordable solar solutions.
 
-📩 **Feedback System**  
-Farmers can share feedback and suggestions to help improve the platform.
+- 📩 **Feedback System**  
+  Collects user feedback to improve features and usability.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML5, CSS3  
-- **Backend**: Python (Flask/Django recommended)  
-- **AI/ML**: Python (for crop & disease prediction)  
-- **Weather API**: OpenWeatherMap or similar  
-- **Database**: SQLite / Firebase (TBD based on final integration)
+### 🔗 Frontend
+- **HTML5**
+- **CSS3**
+- **JavaScript** (for interactivity)
+
+### 🧠 Backend
+- **Python 3**
+- **Machine Learning** for crop and disease predictions
+- **Arduino Integration** for real-world sensor input (soil/environment)
+
+### 🌐 APIs
+- **Weather API** (e.g., OpenWeatherMap)
+- **Government Resources API** (or static data from portals)
 
 ---
 
-## 📁 Folder Structure
+## 🗂️ Project Structure
 
-```bash
-├── css/
-├── weatherwebsite/
-├── Feedback.html
-├── Fertilizer.html
-├── LICENSE
-├── README.md
-├── ardu.py
-├── chatbo.html
-├── crop.py
-├── dis.py
-├── disea.py
-├── disp.py
-├── govts.html
-├── index.html
-├── seed price.html
-├── seed.html
-├── solarpanel.html
-├── tech.html
+Farmly_web-main/
+├── css/                      # Stylesheets for the frontend
+├── weatherwebsite/           # Weather integration module (HTML/CSS/JS)
+├── Feedback.html             # Feedback form page
+├── Fertilizer.html           # Fertilizer recommendation page
+├── chatbo.html               # AI Chatbot interface
+├── govts.html                # Government schemes information
+├── index.html                # Home page
+├── seed price.html           # Seed pricing information
+├── seed.html                 # Seed details and recommendations
+├── solarpanel.html           # Solar panel guidance page
+├── tech.html                 # Technologies and resources info
+├── ardu.py                   # Arduino sensor integration script
+├── crop.py                   # Crop recommendation logic
+├── dis.py                    # Data preprocessing or helper functions
+├── disea.py                  # Plant disease detection logic
+├── disp.py                   # Possibly visualization or display script
+├── LICENSE                   # Project license
+├── README.md                 # Project documentation (you're reading it!)
 
+
+
+---
+
+## ⚙️ Getting Started
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Bhumikax/Farmly_assistant.git
+   cd Farmly_assistant/Farmly_web-main
+   
+2. Install dependencies 
+    ```bash
+    pip install -r requirements.txt
+    
+3. Run Python scripts for prediction modules:
+   crop.py – Crop Recommendation
+   disea.py – Disease Prediction
+   ardu.py – Sensor readings (if Arduino connected)
+   
+4. Open index.html in your browser to explore the UI.
 
 💡 Inspiration
-India is home to millions of farmers who face challenges due to lack of timely information and resources. Farmly was born out of a desire to bridge this gap using technology – empowering farmers with tools that are simple, smart, and scalable.
+Farmly was born from the desire to leverage technology for India's agricultural backbone. We aim to bridge the information gap for farmers by delivering personalized, timely, and localized insights — directly at their fingertips.
